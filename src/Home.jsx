@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import logo from "./assets/logo.png";
 import { motion } from "framer-motion";
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const words = ["Competitive Programming", "Development", "Machine Learning"];
 
@@ -122,7 +123,9 @@ const Home = () => {
         </motion.h2>
       </div>
       <div className="item" id="hireMe" style={{ gridArea: "box3" }}>
-        <h1>Hire Me ^_^ </h1>
+        <h1>Hire Me ^_^ </h1> 
+        
+        
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
@@ -134,7 +137,8 @@ const Home = () => {
             )
           }
         >
-          View CV
+          View CV 
+          
         </motion.button>
       </div>
       {/* <div className="item" style={{ gridArea: "box4" }}></div> */}

@@ -23,8 +23,8 @@ export default function Background() {
         // backgroundColor: "#fafafa",
         backgroundColor :"#E1E9E5", // best 
         backgroundImage: `
-          linear-gradient(to right, rgba(0,0,0,0.09) 1px, transparent 1px),
-          linear-gradient(to bottom, rgba(0,0,0,0.09) 1px, transparent 1px)
+          linear-gradient(to right, rgba(0,0,0,0.3) 1px, transparent 1px),
+          linear-gradient(to bottom, rgba(0,0,0,0.) 1px, transparent 1px)
         `,
         backgroundSize: "60px 60px",
         backgroundPositionX: x,  
